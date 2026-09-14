@@ -1,12 +1,23 @@
-## Hi there 👋
+# FonijBuild
 
-<!--
+The AI-first product builder ecosystem.
 
-**Here are some ideas to get you started:**
+Start with an idea.
+Fonij figures out the architecture.
+Build only what you need.
+Evolve when the product needs it.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## Core
+
+- Fonij CLI
+- Catalog
+- Documentation
+
+## Foundations
+
+- Web
+- SPA
+- API
+- Universal App
+- Browser Extension
+- Service
