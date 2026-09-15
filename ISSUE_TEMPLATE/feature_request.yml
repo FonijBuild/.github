@@ -1,0 +1,51 @@
+name: Feature request
+description: Propose a focused improvement to a starter, product kit, or documentation.
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Target repository
+      placeholder: easy-django-api-starter
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the user or maintainer problem, not only the desired implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed outcome
+      description: What should become possible or easier?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - Documentation only
+        - Optional module or preset
+        - Starter core
+        - Cross-repository standard
+        - Breaking change
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and discussions.
+          required: true
+        - label: This request describes a reusable need, not only one private project.
+          required: true
